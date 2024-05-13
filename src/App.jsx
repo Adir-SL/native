@@ -3,8 +3,11 @@ import { createRoot } from "react-dom/client";
 
 const App = () => {
     return (
-        <h1>HI</h1>
-);
+        <div>
+            <h1>HELLO</h1>
+            <h3>React Native</h3>
+        </div>
+    );
 };
 
 const container = document.getElementById('root');
