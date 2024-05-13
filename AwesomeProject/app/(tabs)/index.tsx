@@ -7,8 +7,9 @@ import { ThemedView } from '@/components/ThemedView';
 
 export default function HomeScreen() {
   return (
-    <div>
-      <h1>HELLO</h1>
+    <div style={{display: "flex", width: "100%", flexDirection: "column", alignItems: "center"}}>
+      <h1 style={{margin: "0", marginTop: "40px"}}>HELLO</h1>
+      <h3>React Native</h3>
     </div>
     // <ParallaxScrollView
     //   headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
